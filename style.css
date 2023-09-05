@@ -1,5 +1,9 @@
+body {
+    background-color: salmon;
+}
+
 header {
-    background-color: aqua;
+    background-color: blue;
 }
 
 img {
