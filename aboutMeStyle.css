@@ -1,11 +1,46 @@
 /*Background + Font*/
-body{
-    background-color:  #f4f4f4;
+body {
+    background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 /*class*/
-.highlight-name{
+.highlight-name {
     font-weight: bold;
+}
+
+#topContainer {
+    width: 1347px;
+    height: 262px;
+    float: left;
+}
+
+#imgFlo {
+    float: left;
+}
+
+.reset {
+    clear: both;
+}
+
+#hobbiesContainer {
+    width: 1281px;
+    height: 190px;
+    float: left;
+}
+
+.reset {
+    clear: both;
+}
+
+#memesContainer {
+    height: 1247px;
+    width: 469px;
+    float: left;
+}
+#socialsContainer {
+    width: 492px;
+    height: 95px;
+    float: left;
 }
