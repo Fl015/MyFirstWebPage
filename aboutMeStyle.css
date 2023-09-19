@@ -1,8 +1,8 @@
-/*Background + Font*/
+/*Background + Font + magrin*/
 body {
     background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 0px;
 }
 
 /*class*/
@@ -10,37 +10,94 @@ body {
     font-weight: bold;
 }
 
+/*position for top part*/
 #topContainer {
-    width: 1347px;
+    width: 1032px;
     height: 262px;
     float: left;
+    margin: 20px;
 }
 
+/*position image*/
 #imgFlo {
+    margin: 20px;
     float: left;
 }
 
+/*reset*/
 .reset {
     clear: both;
 }
 
+/*position for hobbies*/
 #hobbiesContainer {
-    width: 1281px;
+    margin: 20px;
+    width: 286px;
     height: 190px;
     float: left;
 }
 
+/*Magrin for images - Hobbies*/
+#hobby1 {
+    margin: 25px;
+}
+
+#hobby2 {
+    margin: 25px;
+}
+
+#hobbiesIMG {
+    width: 920px;
+    height: 190px;
+    float: left;
+    margin: 20px 50px 20px 20px;
+}
+
+/*reset*/
 .reset {
     clear: both;
 }
 
-#memesContainer {
-    height: 1247px;
-    width: 469px;
-    float: left;
+/*position for memes*/
+
+#memesHeader {
+    height: 44;
+    width: 357;
+    margin: 50px 20px 20px 20px ;
 }
+
+#meme1 {
+    height: 326px;
+    width: 383px;
+    float: left;
+    margin: 20px;
+}
+
+#meme2 {
+    width: 874px;
+    height: 204px;
+    float: left;
+    margin: 20px;
+}
+
+/*position for socials*/
 #socialsContainer {
     width: 492px;
     height: 95px;
+    margin: 28,5;
     float: left;
+    background-color: #D9D9D9;
+    padding: 28,5px 28,5 px 28,5px 28,5 px;
 }
+
+#linksHeader {
+    margin: 0px;
+}
+
+/*Center all items*/
+#pageCentration {
+    width: 1356px;
+    height: 982ox;
+    margin: 0px auto 0px auto;
+}
+
